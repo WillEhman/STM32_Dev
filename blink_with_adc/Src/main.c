@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -61,7 +61,6 @@ static void MX_ADC1_Init(void);
 uint32_t value;
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc1) {
 	value = HAL_ADC_GetValue(hadc1);
-	printf("\n\r ADC val == %d", value);
 	HAL_ADC_Start_IT(hadc1); // Re-Start ADC1 under Interrupt
 							 // this is necessary because we don'use
 							 // the Continuous Conversion Mode
@@ -205,7 +204,7 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_5;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_24CYCLES_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
   sConfig.SingleDiff = ADC_SINGLE_ENDED;
   sConfig.OffsetNumber = ADC_OFFSET_NONE;
   sConfig.Offset = 0;
