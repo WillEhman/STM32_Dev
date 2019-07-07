@@ -1,0 +1,4 @@
+C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/UPLOAD.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
