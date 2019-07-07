@@ -46,6 +46,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/main.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Src/main.c.obj"
+  "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/sd.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Src/sd.c.obj"
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/stm32l4xx_hal_msp.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj"
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/stm32l4xx_it.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj"
   "C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/syscalls.c" "C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/CMakeFiles/clion.elf.dir/Src/syscalls.c.obj"

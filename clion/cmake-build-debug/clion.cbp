@@ -306,10 +306,16 @@
 		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
 			<Option target="clion.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/Inc/sd.h">
+			<Option target="clion.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/STM32L476RGTx_FLASH.ld">
 			<Option target="clion.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/main.c">
+			<Option target="clion.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/sd.c">
 			<Option target="clion.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/will/Documents/GitHub/STM32_Dev/clion/Src/stm32l4xx_hal_msp.c">

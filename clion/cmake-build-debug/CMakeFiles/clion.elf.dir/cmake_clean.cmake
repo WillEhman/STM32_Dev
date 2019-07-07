@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
   "CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
   "CMakeFiles/clion.elf.dir/Src/main.c.obj"
+  "CMakeFiles/clion.elf.dir/Src/sd.c.obj"
   "CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj"
   "CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj"
   "CMakeFiles/clion.elf.dir/Src/syscalls.c.obj"

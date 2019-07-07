@@ -744,6 +744,8 @@ CMakeFiles/clion.elf.dir/Src/main.c.obj: ../Inc/main.h
 CMakeFiles/clion.elf.dir/Src/main.c.obj: ../Inc/stm32l4xx_hal_conf.h
 CMakeFiles/clion.elf.dir/Src/main.c.obj: ../Src/main.c
 
+CMakeFiles/clion.elf.dir/Src/sd.c.obj: ../Src/sd.c
+
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h

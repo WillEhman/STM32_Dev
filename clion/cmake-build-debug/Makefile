@@ -675,6 +675,33 @@ Src/main.c.s:
 	$(MAKE) -f CMakeFiles\clion.elf.dir\build.make CMakeFiles/clion.elf.dir/Src/main.c.s
 .PHONY : Src/main.c.s
 
+Src/sd.obj: Src/sd.c.obj
+
+.PHONY : Src/sd.obj
+
+# target to build an object file
+Src/sd.c.obj:
+	$(MAKE) -f CMakeFiles\clion.elf.dir\build.make CMakeFiles/clion.elf.dir/Src/sd.c.obj
+.PHONY : Src/sd.c.obj
+
+Src/sd.i: Src/sd.c.i
+
+.PHONY : Src/sd.i
+
+# target to preprocess a source file
+Src/sd.c.i:
+	$(MAKE) -f CMakeFiles\clion.elf.dir\build.make CMakeFiles/clion.elf.dir/Src/sd.c.i
+.PHONY : Src/sd.c.i
+
+Src/sd.s: Src/sd.c.s
+
+.PHONY : Src/sd.s
+
+# target to generate assembly for a file
+Src/sd.c.s:
+	$(MAKE) -f CMakeFiles\clion.elf.dir\build.make CMakeFiles/clion.elf.dir/Src/sd.c.s
+.PHONY : Src/sd.c.s
+
 Src/stm32l4xx_hal_msp.obj: Src/stm32l4xx_hal_msp.c.obj
 
 .PHONY : Src/stm32l4xx_hal_msp.obj
@@ -862,6 +889,9 @@ help:
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
+	@echo ... Src/sd.obj
+	@echo ... Src/sd.i
+	@echo ... Src/sd.s
 	@echo ... Src/stm32l4xx_hal_msp.obj
 	@echo ... Src/stm32l4xx_hal_msp.i
 	@echo ... Src/stm32l4xx_hal_msp.s

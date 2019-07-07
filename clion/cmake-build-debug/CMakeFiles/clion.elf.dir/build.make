@@ -316,9 +316,22 @@ CMakeFiles/clion.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clion.elf.dir/Src/main.c.s"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\main.c -o CMakeFiles\clion.elf.dir\Src\main.c.s
 
+CMakeFiles/clion.elf.dir/Src/sd.c.obj: CMakeFiles/clion.elf.dir/flags.make
+CMakeFiles/clion.elf.dir/Src/sd.c.obj: ../Src/sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/clion.elf.dir/Src/sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\clion.elf.dir\Src\sd.c.obj   -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\sd.c
+
+CMakeFiles/clion.elf.dir/Src/sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clion.elf.dir/Src/sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\sd.c > CMakeFiles\clion.elf.dir\Src\sd.c.i
+
+CMakeFiles/clion.elf.dir/Src/sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clion.elf.dir/Src/sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\sd.c -o CMakeFiles\clion.elf.dir\Src\sd.c.s
+
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/clion.elf.dir/flags.make
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj: ../Src/stm32l4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\clion.elf.dir\Src\stm32l4xx_hal_msp.c.obj   -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\stm32l4xx_hal_msp.c
 
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -331,7 +344,7 @@ CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj: CMakeFiles/clion.elf.dir/flags.make
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj: ../Src/stm32l4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\clion.elf.dir\Src\stm32l4xx_it.c.obj   -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\stm32l4xx_it.c
 
 CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.i: cmake_force
@@ -344,7 +357,7 @@ CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.s: cmake_force
 
 CMakeFiles/clion.elf.dir/Src/syscalls.c.obj: CMakeFiles/clion.elf.dir/flags.make
 CMakeFiles/clion.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/clion.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/clion.elf.dir/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\clion.elf.dir\Src\syscalls.c.obj   -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\syscalls.c
 
 CMakeFiles/clion.elf.dir/Src/syscalls.c.i: cmake_force
@@ -357,7 +370,7 @@ CMakeFiles/clion.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.obj: CMakeFiles/clion.elf.dir/flags.make
 CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.obj: ../Src/system_stm32l4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.obj"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\clion.elf.dir\Src\system_stm32l4xx.c.obj   -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\Src\system_stm32l4xx.c
 
 CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.i: cmake_force
@@ -370,7 +383,7 @@ CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.s: cmake_force
 
 CMakeFiles/clion.elf.dir/startup/startup_stm32l476xx.s.obj: CMakeFiles/clion.elf.dir/flags.make
 CMakeFiles/clion.elf.dir/startup/startup_stm32l476xx.s.obj: ../startup/startup_stm32l476xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/clion.elf.dir/startup/startup_stm32l476xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/clion.elf.dir/startup/startup_stm32l476xx.s.obj"
 	C:\PROGRA~2\GNUTOO~1\72018-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\clion.elf.dir\startup\startup_stm32l476xx.s.obj -c C:\Users\will\Documents\GitHub\STM32_Dev\clion\startup\startup_stm32l476xx.s
 
 # Object files for target clion.elf
@@ -395,6 +408,7 @@ clion_elf_OBJECTS = \
 "CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj" \
 "CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/clion.elf.dir/Src/main.c.obj" \
+"CMakeFiles/clion.elf.dir/Src/sd.c.obj" \
 "CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj" \
 "CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj" \
 "CMakeFiles/clion.elf.dir/Src/syscalls.c.obj" \
@@ -424,6 +438,7 @@ clion.elf: CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 clion.elf: CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/Src/main.c.obj
+clion.elf: CMakeFiles/clion.elf.dir/Src/sd.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/Src/stm32l4xx_hal_msp.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/Src/stm32l4xx_it.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/Src/syscalls.c.obj
@@ -431,7 +446,7 @@ clion.elf: CMakeFiles/clion.elf.dir/Src/system_stm32l4xx.c.obj
 clion.elf: CMakeFiles/clion.elf.dir/startup/startup_stm32l476xx.s.obj
 clion.elf: CMakeFiles/clion.elf.dir/build.make
 clion.elf: CMakeFiles/clion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\will\Documents\GitHub\STM32_Dev\clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable clion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\clion.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/clion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/will/Documents/GitHub/STM32_Dev/clion/cmake-build-debug/clion.bin"
