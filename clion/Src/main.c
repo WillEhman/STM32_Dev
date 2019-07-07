@@ -107,6 +107,7 @@ int main(void)
     while (1) {
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
         HAL_Delay(value / 10 + 20);
+//        TODO implement storage to flash
         if (value > 9999) {
             break;
         }
@@ -220,49 +221,6 @@ static void MX_ADC1_Init(void)
 
   /* USER CODE END ADC1_Init 2 */
 
-}
-
-/*
-* write data to internal flash
-* return: value if OK, 0 if Error
-*/
-uint32_t WriteToFlash(uint32_t address, uint32_t value)
-{
-    uint32_t PAGEError = 0;
-    uint32_t result = 0;
-
-    /* Unlock the Flash to enable the flash control register access *************/
-    HAL_FLASH_Unlock();
-
-    /* Erase the user Flash area */
-    EraseInitStruct.TypeErase   = FLASH_TYPEERASE_PAGES;
-    EraseInitStruct.PageAddress = FLASH_USER_START_ADDR; //User defined addr
-    EraseInitStruct.NbPages     = 1;
-
-    if (HAL_FLASHEx_Erase(&EraseInitStruct, &PAGEError) != HAL_OK)
-    {
-        HAL_FLASH_Lock();
-        return 0;
-    }
-
-    /* Program the user Flash area word by word */
-    if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, address, value) != HAL_OK)
-    {
-        HAL_FLASH_Lock();
-        return 0;
-    }
-
-    /* Lock the Flash to disable the flash control register access (recommended
-     to protect the FLASH memory against possible unwanted operation) *********/
-    HAL_FLASH_Lock();
-
-    /* Check if the programmed data is OK */
-    result = *(__IO uint32_t *)address;
-
-    if(result != value)
-        return 0;
-
-    return result;
 }
 
 /**

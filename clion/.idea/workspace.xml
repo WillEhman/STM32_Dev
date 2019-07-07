@@ -13,13 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3bb3b1-5203-45fc-bbab-d9f2bf91f2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_clion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blink_with_adc/Debug/Startup/subdir.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../blink_with_adc/Debug/Startup/subdir.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +36,8 @@
       <file pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="254">
+              <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
               <folding>
                 <element signature="e#29#728#0" />
               </folding>
@@ -176,12 +170,12 @@
       <updated>1562461966083</updated>
       <workItem from="1562461967286" duration="2219000" />
       <workItem from="1562466351224" duration="1216000" />
-      <workItem from="1562467824225" duration="2669000" />
+      <workItem from="1562467824225" duration="3183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6104000" />
+    <option name="totallyTimeSpent" value="6618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -197,7 +191,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3058659" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3058659" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.325419" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -329,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="254">
+          <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
           <folding>
             <element signature="e#29#728#0" />
           </folding>
