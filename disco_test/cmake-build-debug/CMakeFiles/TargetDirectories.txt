@@ -1,0 +1,4 @@
+C:/Users/will/Documents/GitHub/STM32_Dev/disco_test/cmake-build-debug/CMakeFiles/disco_test.elf.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/disco_test/cmake-build-debug/CMakeFiles/UPLOAD.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/disco_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/will/Documents/GitHub/STM32_Dev/disco_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
